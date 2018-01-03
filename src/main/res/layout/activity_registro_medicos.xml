@@ -6,7 +6,7 @@
 
 
     android:layout_height="match_parent"
-    tools:context="com.example.josezc.inp_cm.Medico_Registro_View"
+    tools:context="com.example.josezc.inp_cm.Views.Medico_Registro_View"
     tools:layout_editor_absoluteY="81dp">
 
 

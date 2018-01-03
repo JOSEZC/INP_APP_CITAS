@@ -1,11 +1,13 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Iterators;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Handler;
 
+import com.example.josezc.inp_cm.Interfaces.Usuario_Registro_Interface;
 import com.example.josezc.inp_cm.Utilidades.Utilidades;
+import com.example.josezc.inp_cm.conexionSQLiteHelper;
 
 
 public class Usuario_Registro_Iterator implements Usuario_Registro_Interface.Iterator{

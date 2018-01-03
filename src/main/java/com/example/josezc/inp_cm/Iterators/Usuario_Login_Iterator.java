@@ -1,12 +1,13 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Iterators;
 
 import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.josezc.inp_cm.Entidades.Usuario;
+import com.example.josezc.inp_cm.Interfaces.Usuario_Login_Interface;
 import com.example.josezc.inp_cm.Utilidades.Utilidades;
+import com.example.josezc.inp_cm.conexionSQLiteHelper;
 
 
 public class Usuario_Login_Iterator implements Usuario_Login_Interface.Iterator {

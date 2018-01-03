@@ -1,6 +1,9 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Presenters;
 
 import android.content.Context;
+
+import com.example.josezc.inp_cm.Interfaces.Registro_Cita_Interfaces;
+import com.example.josezc.inp_cm.Iterators.Registro_Cita_Iterator;
 
 /**
  * Created by JOSEZC on 3/01/2018.

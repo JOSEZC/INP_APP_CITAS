@@ -1,8 +1,10 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Presenters;
 
 import android.content.Context;
 
 import com.example.josezc.inp_cm.Entidades.Cita;
+import com.example.josezc.inp_cm.Interfaces.Cargar_Citas_Interfaces;
+import com.example.josezc.inp_cm.Iterators.Cargar_Citas_Iterator;
 
 public class Cargar_Citas_Presenter  implements  Cargar_Citas_Interfaces.Presenter {
 

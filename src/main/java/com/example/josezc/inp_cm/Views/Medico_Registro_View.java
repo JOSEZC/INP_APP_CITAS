@@ -1,4 +1,4 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Views;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.example.josezc.inp_cm.Interfaces.Medico_Registro_Interfaces;
+import com.example.josezc.inp_cm.Presenters.Medico_Registro_Presenter;
+import com.example.josezc.inp_cm.R;
 
 public class Medico_Registro_View extends AppCompatActivity  implements  Medico_Registro_Interfaces.View{
 

@@ -1,4 +1,4 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Views;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +10,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.josezc.inp_cm.Entidades.Usuario;
+import com.example.josezc.inp_cm.Interfaces.Usuario_Login_Interface;
+import com.example.josezc.inp_cm.Menu_App;
+import com.example.josezc.inp_cm.Presenters.Usuario_Login_Presenter;
+import com.example.josezc.inp_cm.R;
 
 public class Usuario_Login_View extends AppCompatActivity implements Usuario_Login_Interface.View  {
 

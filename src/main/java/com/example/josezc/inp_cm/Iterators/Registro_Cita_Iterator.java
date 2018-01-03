@@ -1,11 +1,12 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Iterators;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-import android.os.Handler;
 
+import com.example.josezc.inp_cm.Interfaces.Registro_Cita_Interfaces;
 import com.example.josezc.inp_cm.Utilidades.Utilidades;
+import com.example.josezc.inp_cm.conexionSQLiteHelper;
 
 /**
  * Created by JOSEZC on 3/01/2018.

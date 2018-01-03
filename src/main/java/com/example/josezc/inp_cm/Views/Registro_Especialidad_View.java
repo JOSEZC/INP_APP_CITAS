@@ -1,4 +1,4 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Views;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.josezc.inp_cm.Interfaces.Especialidad_Registro_Interfaces;
+import com.example.josezc.inp_cm.Presenters.Registro_Especialidad_Presenter;
+import com.example.josezc.inp_cm.R;
 
 public class Registro_Especialidad_View extends AppCompatActivity implements Especialidad_Registro_Interfaces.View{
 

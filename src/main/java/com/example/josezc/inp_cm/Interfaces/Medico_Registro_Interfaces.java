@@ -1,4 +1,4 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Interfaces;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;

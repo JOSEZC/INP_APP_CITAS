@@ -1,18 +1,14 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Iterators;
 
-import android.app.Application;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.os.Handler;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import android.widget.TextView;
 
 import com.example.josezc.inp_cm.Entidades.Especialidad;
-import com.example.josezc.inp_cm.Entidades.Usuario;
+import com.example.josezc.inp_cm.Interfaces.Medico_Registro_Interfaces;
 import com.example.josezc.inp_cm.Utilidades.Utilidades;
+import com.example.josezc.inp_cm.conexionSQLiteHelper;
 
 import java.util.ArrayList;
 

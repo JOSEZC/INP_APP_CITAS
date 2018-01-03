@@ -1,18 +1,18 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Iterators;
 
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.example.josezc.inp_cm.Interfaces.Cargar_Citas_Interfaces;
 import com.example.josezc.inp_cm.Entidades.Cita;
-import com.example.josezc.inp_cm.Entidades.Especialidad;
-import com.example.josezc.inp_cm.Entidades.Medico;
 import com.example.josezc.inp_cm.Utilidades.Utilidades;
+import com.example.josezc.inp_cm.conexionSQLiteHelper;
 
 import java.util.ArrayList;
 
-public class Cargar_Citas_Iterator implements Cargar_Citas_Interfaces.Iterator{
+public class Cargar_Citas_Iterator implements Cargar_Citas_Interfaces.Iterator {
 
     private Cargar_Citas_Interfaces.Presenter presenter;
 

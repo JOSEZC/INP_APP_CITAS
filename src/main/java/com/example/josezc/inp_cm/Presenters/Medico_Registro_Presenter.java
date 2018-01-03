@@ -1,10 +1,9 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Presenters;
 
 import android.content.Context;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
 
-import java.util.ArrayList;
+import com.example.josezc.inp_cm.Interfaces.Medico_Registro_Interfaces;
+import com.example.josezc.inp_cm.Iterators.Medico_Registro_Iterator;
 
 /**
  * Created by JOSEZC on 2/01/2018.

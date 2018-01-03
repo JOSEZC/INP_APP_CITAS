@@ -1,4 +1,4 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Views;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,6 +9,7 @@ import android.widget.ListView;
 
 import com.example.josezc.inp_cm.Entidades.Cita;
 import com.example.josezc.inp_cm.Entidades.Usuario;
+import com.example.josezc.inp_cm.R;
 
 
 public class Inicio_View extends Fragment  {

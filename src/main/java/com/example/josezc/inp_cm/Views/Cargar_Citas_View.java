@@ -1,4 +1,4 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Views;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,6 +12,9 @@ import android.widget.Toast;
 
 import com.example.josezc.inp_cm.Entidades.Cita;
 import com.example.josezc.inp_cm.Entidades.Usuario;
+import com.example.josezc.inp_cm.Interfaces.Cargar_Citas_Interfaces;
+import com.example.josezc.inp_cm.Presenters.Cargar_Citas_Presenter;
+import com.example.josezc.inp_cm.R;
 
 
 public class Cargar_Citas_View extends Fragment  implements Cargar_Citas_Interfaces.View{

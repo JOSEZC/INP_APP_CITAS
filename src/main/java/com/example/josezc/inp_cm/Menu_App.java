@@ -17,6 +17,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.example.josezc.inp_cm.Entidades.Usuario;
+import com.example.josezc.inp_cm.Views.Cargar_Citas_View;
+import com.example.josezc.inp_cm.Views.Inicio_View;
+import com.example.josezc.inp_cm.Views.Reservar_View;
 
 public class Menu_App extends AppCompatActivity
 

@@ -1,6 +1,9 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Presenters;
 
 import android.content.Context;
+
+import com.example.josezc.inp_cm.Interfaces.Especialidad_Registro_Interfaces;
+import com.example.josezc.inp_cm.Iterators.Registro_Especialidad_Iterator;
 
 /**
  * Created by JOSEZC on 2/01/2018.

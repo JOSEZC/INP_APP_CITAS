@@ -1,4 +1,4 @@
-package com.example.josezc.inp_cm;
+package com.example.josezc.inp_cm.Views;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,7 +13,9 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.josezc.inp_cm.Entidades.Cita;
-import com.example.josezc.inp_cm.Entidades.Usuario;
+import com.example.josezc.inp_cm.Interfaces.Reservar_Interfaces;
+import com.example.josezc.inp_cm.Presenters.Reservar_Presenter;
+import com.example.josezc.inp_cm.R;
 
 
 public class Reservar_View extends Fragment implements Reservar_Interfaces.View {

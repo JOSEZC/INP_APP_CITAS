@@ -8,7 +8,7 @@
     android:background="#F9F7F7"
     android:paddingBottom="0dp"
 
-    tools:context="com.example.josezc.inp_cm.Usuario_Registro_View">
+    tools:context="com.example.josezc.inp_cm.Views.Usuario_Registro_View">
 
     <LinearLayout
         android:layout_width="318dp"
