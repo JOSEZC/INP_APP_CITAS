@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="naranja">#F75940</color>
+    <color name="gris1">#323232</color>
+    <color name="naranja2">#F08A5D</color>
+
+    <color name="fondo_am">#FEFAEC</color>
+    <color name="amarillo">#FF9A00</color>
+
+    <color name="success">#1DB954</color>
+    <color name="fondo_amarillo">#FEFFEA</color>
+    <color name="colorPrimaryDark">#D3A357</color>
+    <color name="warning">#FCC314</color>
+    <color name="colorAccent">#323232</color>
+    <color name="danger">#C02727</color>
+</resources>

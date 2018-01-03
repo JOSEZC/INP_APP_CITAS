@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.josezc.inp_cm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Citas Medicas Online"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Usuario_Login_View">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Usuario_Registro_View" />
+        <activity
+            android:name=".Menu_App"
+            android:label="@string/title_activity_menu__app"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".row_cita" />
+        <activity android:name=".row_especialidades" />
+        <activity android:name=".Registro_Especialidad_View" />
+        <activity android:name=".Medico_Registro_View" />
+        <activity android:name=".Registro_Cita_View">
+
+        </activity>
+    </application>
+
+</manifest>

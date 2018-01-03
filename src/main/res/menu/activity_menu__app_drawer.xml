@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/emoji_flirt"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_reservar"
+            android:icon="@drawable/clipboard"
+            android:title="Reservar" />
+        <item
+            android:id="@+id/nav_mis_citas"
+            android:icon="@drawable/ticket"
+            android:title="Mis Citas" />
+
+    </group>
+
+    <!--<item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/v_card"
+                android:title="Mi Informacion" />
+
+        </menu>
+    </item>-->
+
+</menu>
